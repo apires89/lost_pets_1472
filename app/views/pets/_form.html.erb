@@ -1,0 +1,9 @@
+<div class="container">
+  <%= simple_form_for @pet do |f| %>
+    <%= f.input :name %>
+    <%= f.input :address %>
+    <%= f.input :species %>
+    <%= f.input :found_on %>
+    <%= f.button :submit %>
+  <% end %>
+</div>
